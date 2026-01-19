@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leelee's WebPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="h">Welcome to My WebPage!</h1>
+        <h2 id="h">First time using HTML</h2>
+    </header>
+    <!--<hr>-->
+    <nav>
+        <a href="" target="_self">Home</a>
+        <a href="">Project</a>
+        <a href="">Game</a>
+        <a href="">Credit</a>
+    </nav>
+    <!--<hr>-->
+    <main>
+        <section>
+            <p id="sec1">Jump to : <a href="#S1">Introduce Myself</a> / 
+                <a href="#S2">My Interests/Skills</a> /
+                <a href="#S3">Tell Me</a>
+            </p>
+        </section>
+        <section class="sec2">
+            <h3 id="S1">Introduce Myself</h3><img src="image/IMG_1377.JPG" alt="Me" width="150" height="170">
+            <p id="intro">Hello! My Name is <q>Pornnatcha Auudomyuth</q>, nickname is <q>Leelee</q> 
+                I am first-year student of <abbr title="Srinakharinwirot University">SWU</abbr>.
+                <br> 
+                I study Computer-Science and this is my first time making website /w HTML :)
+                <br>
+                and this is what I like and dislike:
+            </p>
+            <table border="3px" class="table"> <!--is border count as CSS??-->
+                <thead>
+                    <tr>
+                        <th>Likes</th>
+                        <th>Dislikes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rose Apple</td>
+                        <td>Cockroach</td>
+                    </tr>
+                    <tr>
+                        <td>Turn-base Game</td>
+                        <td>Conflict</td>
+                    </tr>
+                    <tr>
+                        <td>Peace</td>
+                        <td>Violence</td>
+                    </tr>
+                    <tr>
+                        <td>Collecting</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="sec3">
+            <h3 id="S2">My Interests/Skills</h3>
+            <p id="para1">I like to do many things not gonna lie but can't say the same for my skills.
+                <br>
+                It is <em>too many</em> things for what I like, so I will share one of my interest with you.
+                <br>
+                I like writing <strong>Quotes</strong> because I like to expressed it to motivate 
+                other(and myself) and it the way to show out my imagination.
+                <br>
+                I show you one:
+            </p>
+            <img src="image/Work_is_hard._But_if_you_keep_trying_those_work_you_do_will_be_done_soon.png" alt="Work is hard. But if you keep trying those work you do will be done soon. So keep going myself."
+                width="250">
+            <p id="skill">And here is my <em>Skills</em>, I don't think I have much of it:</p>
+            <ul class="list">
+                <li>Singing</li>
+                <li>Drawing</li>
+                <li>Being a good Follower or Listener</li>
+                <li>Teaching</li>
+            </ul>
+        </section>
+        <section class="sec4">
+            <h3 id="S3">Tell Me</h3>
+            <p>Here, tell me about youself :)</p>
+            <form>
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text" id="fname" name="first_name">
+                <br>
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text" id="lname" name="last_name">
+                <br>
+                <label for="workhour">How long are you working for a day?</label>
+                <br>
+                <select id="workhour" name="workhour">
+                    <option value="none"></option>
+                    <option value="1-5">1-5 Hour</option>
+                    <option value="6-12">6-12 Hour</option>
+                    <option value="13-17">13-17 Hour</option>
+                    <option value="24/7">24/7</option>
+                </select>
+                <br>
+                <label for="comment">Expressed yourself:</label>
+                <br>
+                <textarea id="comment" name="comment" rows="10" cols="50"></textarea>
+                <br>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+            <p id="last">Thank you for having your time here.</p>
+        </section>
+
+    </main>
+    <!--<hr>-->
+    <footer>
+        <p>This <em>content</em> is belong to me and for my lab assignment, please don't use it without my permission.</p>
+        <p><strong>Contact:</strong></p>
+        <p>Email : pornnatcha.auudomyuth@g.swu.ac.th</p>
+        <p>Facebook : <a href="https://www.facebook.com/leelee.pornnatcha" target="_blank" rel='noopener'>Leelee Pornnatcha</a></p>
+        <p>Instagram : <a href="https://www.instagram.com/p_leex2/" target="_blank" rel="noopener">p_leex2</a></p>
+        <p>Tel : 063-763-5597</p>
+    </footer>
+</body>
+</html>
